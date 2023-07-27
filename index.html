@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/917407b9f0.js" crossorigin="anonymous"></script>
+    <title>سایت فروش دوره</title>
+    <link id="tab-icon" rel="icon" type="Portable Network Graphic" href="https://shastad.ir/images/brand/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <section id="loader">
+        <span id="left-loader-circle" class="loader-circle"></span><span id="middle-loader-circle" class="loader-circle"></span><span id="right-loader-circle" class="loader-circle"></span>
+    </section>
+    <article id="background"></article>
+    <section id="context-menu">
+        <ul>
+            <li id="cut-btn">
+                <i class="fa-solid fa-scissors"></i>
+                <p>Cut</p>
+            </li>
+            <li id="copy-btn">
+                <i class="fa-solid fa-copy"></i>
+                <p>Copy</p>
+            </li>
+            <li id="paste-btn">
+                <i class="fa-solid fa-paste"></i>
+                <p>Paste</p>
+            </li>
+            <li id="print-btn">
+                <i class="fa-solid fa-print"></i>
+                <p>Print</p>
+            </li>
+            <li id="copy-link-btn">
+                <i class="fa-solid fa-link"></i>
+                <p>Copy Link</p>
+            </li>
+        </ul>
+    </section>
+    <section id="login-form__container">
+        <i id="close-login-form-icon" class="fa-solid fa-xmark"></i>
+        <div id="login-form">
+            <h3>ورود</h3>
+            <input type="text" id="username" placeholder="نام کاربری">
+            <div id="password__wrapper">
+                <input type="password" id="password" placeholder="رمز">
+                <i id="show-password-icon" class="fa-solid fa-eye-slash"></i>
+            </div>
+            <button id="login-btn" class="btn">ورود</button>
+            <div class="change-form__container">
+                <p class="change-form-title">آیا تا به حال اکانت نداشتید ؟&nbsp;</p>
+                <a id="change-login-form-btn" class="change-form-btn" href="Signup">ثبت نام</a>
+            </div>
+        </div>
+    </section>
+    <section id="signup-form__container">
+        <i id="close-signup-form-icon" class="fa-solid fa-xmark"></i>
+        <div id="signup-form">
+            <h3>ثبت نام</h3>
+            <input type="text" id="signup-fullname" class="signup-inputs" placeholder="نام کامل">
+            <input type="text" id="signup-username" class="signup-inputs" placeholder="نام کاربری">
+            <p class="error-text" id="signup-username-error">This username is already used</p>
+            <div id="signup-password__wrapper">
+                <input type="password" id="signup-password" class="signup-inputs" placeholder="رمز">
+                <i id="signup-show-password-icon" class="fa-solid fa-eye-slash"></i>
+            </div>
+            <div id="signup-repeat-password__wrapper">
+                <input type="password" id="signup-repeat-password" class="signup-inputs" placeholder="تکرار رمز">
+                <i id="signup-show-repeat-password-icon" class="fa-solid fa-eye-slash"></i>
+            </div>
+            <p class="error-text" id="signup-password-error">Passwords not same</p>
+            <button id="signup-btn" class="btn">ثبت نام</button>
+            <div class="change-form__container">
+                <p class="change-form-title">آیا اکانت دارید ؟&nbsp;</p>
+                <a id="change-signup-form-btn" class="change-form-btn" href="Login">ورود</a>
+            </div>
+        </div>
+    </section>
+    <section id="add-product-form__container">
+        <i id="close-add-product-form-icon" class="fa-solid fa-xmark"></i>
+        <div id="add-product-form">
+            <h3>افزودن دوره</h3>
+            <input type="text" id="set-product-title" placeholder="نام دوره" class="add-product-inputs">
+            <textarea id="set-product-describe" maxlength="100" placeholder="توضیحات" class="add-product-inputs"></textarea>
+            <input type="url" id="set-product-picture-link" placeholder="لینک عکس" class="add-product-inputs" inputmode="url" required>
+            <input type="number" id="set-product-price" placeholder="قیمت" class="add-product-inputs" min="0">
+            <button id="add-product-btn" class="btn">افزودن</button>
+        </div>
+    </section>
+    <section id="account-profile__container">
+        <i id="close-account-profile-icon" class="fa-solid fa-xmark"></i>
+        <div id="account-profile">
+            <h3>اکانت</h3>
+            <p id="account-fullname">نام کامل:&nbsp;<span class="account-information"></span></p>
+            <p id="account-username">نام کاربری:&nbsp;<span class="account-information"></span></p>
+            <input type="password" id="account-password">
+            <button id="delete-account-btn" class="btn">حذف اکانت</button>
+        </div>
+    </section>
+    <header>
+        <section class="container">
+            <nav class="navigation">
+                <h1 id="title"><a href="./index.html"><img src="https://shastad.ir/images/brand/logo1.png" alt=""></a></h1>
+                <div id="search__wrapper">
+                    <input type="text" id="search-bar">
+                    <i id="search-icon" class="fa-solid fa-magnifying-glass" title="Search"></i>
+                    <i id="clear-icon" class="fa-solid fa-xmark" title="Clear"></i>
+                </div>
+                <ul>
+                    <li><i id="user-account-icon" class="bi bi-person-circle" title="Account"></i></li>
+                    <li><a href="./card.html"><i class="bi bi-bag-fill" title="Cart"></i></a></li>
+                    <li><i id="login-icon" class="fa-solid fa-arrow-right-to-bracket" title="Login"></i></li>
+
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="container">
+            <section id="products__wrapper"></section>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <div class="footer">
+                <h5>Built on GitHub <i class="bi bi-github"></i></h5>
+            </div>
+        </section>
+    </footer>
+    <!-- * Sweet Alert 1 -->
+    <script src="JS/sweetalert.js"></script>
+    <script src="JS/app.js"></script>
+</body>
+</html>
+<!--TODO Version 2.0.0-->
+
+<!-- ! All Copyrights Reserved ©-->
+
+<!-- * Created with ❤️ by Ali Mousavi & Sobhan Musazadeh-->
