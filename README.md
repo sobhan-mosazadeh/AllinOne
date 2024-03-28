@@ -35,8 +35,6 @@
 - **To access the admin panel, login with this Username & Password**
   - Username: ```admin```
   - Password: ```12345678```
-## Social Media
-- [Twitter](https://twitter.com/ixsalimo)
-- [Instagram](https://www.instagram.com/ixsalimo)
+
 
 ##### Created with :heart: by [Sobhan_Musazadeh](https://github.com/MrSobhan)  &&  [Ali Mousavi](https://ixsalimo.com) 
