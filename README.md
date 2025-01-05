@@ -1,5 +1,5 @@
 # AllinOne <img src="https://github.com/Tarikul-Islam-Anik/tarikul-islam-anik/raw/main/assets/images/Fire.png" alt="Slightly Smiling Face" width="35" height="35"/>
-### Full Front-End Store Website
+### Full Front-End Store Website ✨
 - **What it do ?**
   - You can create few account and save it into browser localstorage.
   - You can delete every account you want ! _(Actually this option is incredible)_
